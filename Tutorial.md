@@ -5,7 +5,7 @@ This tutorial is written for a scientist who is:
 2.  wants to use some basic version control and back up all of their code online (on GitHub)
 3.  wants students to be able to access that code, download it to their own machine, and also download any updates the instructor adds.
 
-I wrote this bare-bones tutorial to provide an extremely simple set of instructions to someone like me wanting to get started with Git and GitHub.   I found that most instructions online had more info than I needed to get started, and were geared more towards developers working on teams. For my purposes, I do limited version control; instead, using Git and GitHub is most useful becuase it allows me to keep my code safely in the cloud, allows me to have have multiple machines using the same, up-to-date code, and allows me to share and update code with students.  
+I wrote this bare-bones tutorial to provide an extremely simple set of instructions to someone like me wanting to get started with Git and GitHub.   I found that most instructions online had more info than I needed to get started, and were geared more towards developers working on teams. For my purposes, I do limited version control; instead, using Git and GitHub is most useful because it allows me to keep my code safely in the cloud, allows me to have have multiple machines using the same, up-to-date code, and allows me to share and update code with students.  
 
 I do not deal here with version control, collaborative editing, or any other features of Git.  For information about these features, or for more
 detail on the process I describe here, there are many resources available online.  
@@ -22,9 +22,9 @@ git --version
 ```  
 If not, go to https://git-scm.com/downloads to download and install.
 
-* **Step 0b (for the instructor):** Sign up for an account on GitHub. Note that if you are a professor at an academic institution, you are eligible for GitHub pro! To sign up for GitHub, go to https://github.com/ and click on “Sign up”.
+* **Step 0b (for the instructor):** Sign up for an account on GitHub. Note that if you are a professor at an academic institution, you are eligible for GitHub pro! To sign up for GitHub, go to https://github.com/ and click on “Sign up”.  To apply for educator benefits, find more info here: https://education.github.com/.
 
-* **Step 1 (for the instructor):** Set up your directory 
+* **Step 1 (for the instructor):** Set up your directory.
   * Create a new directory to hold all of your code for your new package.  Typically, in addition to all of your python code files, you want your package directory to have the following files:
     - LICENSE : A text file describing what license your code has
     - README.md : A file describing your package, including some simple usage statements.  The .md suffix means it’s in “Markdown” format. If you write it in Markdown, then it will show up nicely formatted on GitHub.
@@ -51,13 +51,14 @@ Then type:
 ```  
     git status 
 ```  
-to see which files git thinks have been modified, and which branch you’re on.  By default, you’ll be on the “master” branch.  (This is important for version control, which I won't be covering here.  But if you were trying out different versions of code, you would create other branches with different names.)   After this, type:
+to see which files git thinks have been modified, and which branch you’re on.  By default, you’ll be on the “master” branch.  (This is important for version control, which I won't be covering here.  But if you were trying out different versions of code, you would create other branches with different names).   After this, type:
 ```  
-    git commit -m “Initializing directory” 
+    git commit -m "Initializing directory"
 ```  
 to commit (save) your changes.  The -m means you are adding a message to your commit, and the message is given in the quotes.
 
 * **Step 3 (for the instructor):** Get your new package onto GitHub.
+
   -Go to Github and login.
 
   -In the upper right, click + symbol to add a repository.  Write the name of your repository (the same as the name of your local package name).  Do NOT add any init files, README files, etc. to this repository when requested, since you already have them in your local directory, and you don’t want GitHub to get confused.
