@@ -1,3 +1,6 @@
+# Git and GitHub Tutorial
+## Written by Colette Salyk, Assistant Professor of Astronomy, Vassar College
+
 # Who is this tutorial for?
 This tutorial is written for a scientist who is:
 
