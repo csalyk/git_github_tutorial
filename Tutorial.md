@@ -19,18 +19,14 @@ https://github.com/
 and click on “Sign up”
 
 * Step 1 (for the instructor): Set up your directory 
-: Create a new directory to hold all of your code for your new package.  Typically, you want your package directory to have the following files:
-
-: LICENSE : A text file describing what license your code has
-
-: README.md : A file describing your package, including some simple usage statements.
-:The .md suffix means it’s in “Markdown” format. If you write it in Markdown, then it will show up nicely formatted on GitHub.
-
-: __init__.py : An initialization file for your package.  This defines what happens if a user types “import yourpackagename”.  As an example, if you have a package named yourpackagename and it has a file called yourpackagename.py and a function called yourroutine, you might want to write 
-: from .yourpackagename import yourroutine
-: The dot means that the package is in that directory.
-
-: in addition to all of your python files (each ending in .py)
+ * Create a new directory to hold all of your code for your new package.  Typically, you want your package directory to have the following files:
+  * LICENSE : A text file describing what license your code has
+  * README.md : A file describing your package, including some simple usage statements.
+  * The .md suffix means it’s in “Markdown” format. If you write it in Markdown, then it will show up nicely formatted on GitHub.
+  * __init__.py : An initialization file for your package.  This defines what happens if a user types “import yourpackagename”.  As an example, if you have a package named yourpackagename and it has a file called yourpackagename.py and a function called yourroutine, you might want to write 
+      from .yourpackagename import yourroutine
+  The dot means that the package is in that directory.
+  * All of your python files (each ending in .py)
 
 * Step 2 (for the instructor): Initialize your directory for git and do your first commit: 
 To initialize your directory, type
